@@ -26,3 +26,15 @@ create index.html
 
 ##  11.next run using  -   npm run dev    
 
+
+
+
+
+#extrenal tailwind css code write
+
+1.add in src/input.css file
+   @import "tailwindcss";
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+

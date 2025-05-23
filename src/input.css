@@ -1,1 +1,26 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{       //using element name
+    h3{
+        border:1px solid black;
+        @apply bg-red-500 font-bold
+    }
+}
+
+
+@layer  components{  //using class
+    .submitbtn{
+        @apply bg-gray-500 px-8 py-2 rounded-xl mx-42 my-32
+    }
+}
+
+
+@media screen(xl){   //media
+    .submitbtn{
+    @apply bg-red-500
+
+    }
+}
